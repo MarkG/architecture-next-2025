@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codevalue-architect-assistant"
+version = "0.1.0" # Corresponds to src/codevalue_architect_assistant/__init__.py
+authors = [
+  { name="Your Name", email="you@example.com" }, # Placeholder - Update needed
+]
+description = "A CLI tool to assist software architects in reverse-engineering projects."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # Placeholder - Choose a license
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Documentation",
+]
+dependencies = [
+    "click>=8.0",
+    "networkx>=3.0",
+    # Add other runtime dependencies from requirements.txt if any are added later
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/codevalue-architect-assistant" # Placeholder
+"Bug Tracker" = "https://github.com/yourusername/codevalue-architect-assistant/issues" # Placeholder
+
+# Define the command-line script entry point
+[project.scripts]
+arch-assist = "codevalue_architect_assistant.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"] # Look for packages in the src directory
+
+# Optional: Configuration for pytest (can also be in pytest.ini or conftest.py)
+# [tool.pytest.ini_options]
+# minversion = "6.0"
+# addopts = "-ra -q"
+# testpaths = [
+#     "tests",
+# ]

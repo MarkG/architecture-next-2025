@@ -1,0 +1,17 @@
+# Error Documentation & Fixes: CodeValue Architect Assistant
+
+This file documents known issues, errors encountered, and their resolutions during the development of the CodeValue Architect Assistant project.
+
+---
+
+**2025-04-10: `NameError: name 'dataclass' is not defined` in `python_parser.py`**
+- **Issue:** The `@dataclass` decorator was used before `dataclass` was imported from the `dataclasses` module. An import statement existed but was incorrectly placed at the bottom of the file.
+- **Fix:** Moved the `from dataclasses import dataclass` statement to the top of the file (`src/codevalue_architect_assistant/analysis/python_parser.py`) with other imports.
+- **Lesson:** Ensure all necessary imports are placed at the top of the Python file before the symbols are used.
+
+**2025-04-10: `TypeError: non-default argument 'type' follows default argument` in `javascript_parser.py`**
+- **Issue:** In the `JSRawImport` dataclass definition, the non-default field `type` was defined after fields with default values (`imported_items`, `line_number`).
+- **Fix:** Reordered the fields in the `JSRawImport` dataclass definition in `src/codevalue_architect_assistant/analysis/javascript_parser.py` so that all non-default fields (`module_specifier`, `type`) come before fields with default values.
+- **Lesson:** In Python dataclasses (and function signatures), all arguments/fields without default values must precede arguments/fields with default values.
+
+*(Previous errors documented below if any)*

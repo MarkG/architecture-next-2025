@@ -1,0 +1,3 @@
+# Core dependencies for CodeValue Architect Assistant
+click>=8.0
+networkx>=3.0

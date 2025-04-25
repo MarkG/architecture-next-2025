@@ -1,0 +1,25 @@
+# Lessons Learned: CodeValue Architect Assistant
+
+This file captures project-specific patterns, user preferences, key decisions, and other intelligence gathered during the development of the CodeValue Architect Assistant.
+
+---
+
+*(No lessons learned documented yet)*
+
+## Key Decisions Log
+
+- **2025-04-05:** Decided to use Python as the primary development language. (Rationale: Strong ecosystem for text/AST processing, CLI tools).
+- **2025-04-05:** Chose `click` for the CLI framework. (Rationale: Composability, ease of use).
+- **2025-04-05:** Selected `networkx` for graph representation. (Rationale: Standard library for graph analysis).
+- **2025-04-05:** Decided on Mermaid/PlantUML for initial diagram output. (Rationale: Text-based, version-controllable, integrates well with docs).
+- **2025-04-05:** Initial language support focus: Python and JavaScript.
+- **2025-04-05:** Parsing strategy: AST for Python, Regex for JavaScript (initial).
+- **2025-04-05:** Use-case identification strategy: Start with pattern matching.
+
+## Project Patterns & Preferences
+
+*(To be filled as development progresses)*
+
+## Tool Usage Patterns
+
+*(To be filled as development progresses)*
