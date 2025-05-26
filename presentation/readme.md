@@ -4,6 +4,12 @@
  - Andrej Karpathy - 10:14 PM · Jan 24, 2023
 The hottest new programming language is English
 
+## Projects
+
+Google AlphaEvolve
+Apple building with Anthropic Vibe COding platform
+OpenAi aquires WindSurf
+
 # Promo
 
 ## Subject
@@ -17,12 +23,6 @@ Building Architect Assistant using Vibe / Agentic Coding techniques
 - Using different models for different roles
 - Create command line Architect Assistant, helping to map, reverse engineer and visualize the structure of the projects 
 
-# Code Assitants
-![alt text](tool_creation_tokens.png)
-![alt text](tool_creation_token_summary.png)
-2 import errors has been fixed:
-Tokens: 11.0m / 108.1k - 5.46 MB Context Window: 194.4k-1.0m
-
 ## No code / low code 
 
 Lovable, Replit, Base44
@@ -35,9 +35,13 @@ Cursor, Windsurf
 
 GitHub Copilot (Agent just in Preview), Cline, Roo Code
 
-## Command line
+## Command line tools
 
 Aider, Claude Code (Preview), Manus, Codex Cli
+
+## Asynchronous Agents
+
+Codex, Claude Code, Google Jules
 
 # Azure Model Performance with evaluated metrics
 https://ai.azure.com/explore/models/benchmarks?wsid=/subscriptions/4d7e9830-d0c0-4bfd-a61c-c082de454a38/resourceGroups/rg-westusaihub/providers/Microsoft.MachineLearningServices/workspaces/cv-matcher&tid=97eefa42-4314-4bb4-b971-3ff5834012bb&modelId=DeepSeek-R1
@@ -87,6 +91,13 @@ to create CodeValue Architect Assistant.
 ## Enhance initial prompt
 
 use  https://promptperfect.jina.ai
+
+
+# Code Assitants - Naive approach results
+![alt text](tool_creation_tokens.png)
+![alt text](tool_creation_token_summary.png)
+2 import errors has been fixed:
+Tokens: 11.0m / 108.1k - 5.46 MB Context Window: 194.4k-1.0m
 
 ## Create a plan
 
