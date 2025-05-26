@@ -103,3 +103,25 @@ use  https://promptperfect.jina.ai
 
 ## Add tools using MCP servers
 
+## Setup Roo Code
+- https://spin.atomicobject.com/roo-code-ai-assisted-development/
+
+# Claude Code
+## 3 folders
+https://www.youtube.com/watch?v=hGg3nWp7afg&ab_channel=IndyDevDan
+
+- Agentic coding is a superset of AI Coding
+- Context is a king
+### ai_docs
+- clause_code_best_practices.md
+- fc_openai_agents.md
+### specs
+- spec md files of the project
+### .claude
+- Reusable prompts we can use with our AI tools.
+
+# Roo Code
+
+## Use Roo Code Memory Bank
+- https://github.com/GreatScottyMac/roo-code-memory-bank
+- 
