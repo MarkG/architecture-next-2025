@@ -10,7 +10,7 @@ The tool should help architect in following tasks, using LLM abilities:
 5) create flow and sequence mermaid diagrams
 
 # Propmt for Prompt-Perfect
-Create me the advanced prompt to be used by code assitant tools like Aider, Cluade Code or Roo Code 
+Create me the advanced prompt to be used by code assitant tools like Aider, Claude Code or Roo Code 
 to create CodeValue Architect Assistant.
 
 # Roo Code Enchanced prompt
