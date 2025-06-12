@@ -6,13 +6,18 @@ This file provides a high-level overview of the project and the expected product
 *
 
 ## Project Goal
-
-*   
-
+ 
+Develop 'CodeValue Architect Assistant,' a command-line tool leveraging advanced LLM capabilities to function as an interactive architectural assistant.
+ 
 ## Key Features
-
-*   
-
+ 
+*   Interactive code editing and analysis, similar to Aider.
+*   Deep architectural discovery and reverse engineering of existing projects.
+*   Comprehensive codebase analysis for design patterns, anti-patterns, and security vulnerabilities.
+*   Automated generation of dependency maps.
+*   Intelligent extraction of core use cases and key functionalities.
+*   Automatic generation of system behavior and interaction diagrams (flow and sequence) in Mermaid syntax.
+ 
 ## Overall Architecture
-
-*
+ 
+The tool will be a command-line application that evolves into a Model-Code-Platform (MCP) server.
