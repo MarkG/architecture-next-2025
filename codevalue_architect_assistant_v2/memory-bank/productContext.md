@@ -7,12 +7,16 @@ This file provides a high-level overview of the project and the expected product
 
 ## Project Goal
 
-*   
+*   Develop a command-line tool named 'CodeValue Architect Assistant' to assist software architects by analyzing local source code repositories.
 
 ## Key Features
 
-*   
+*   Comprehensive Reverse Engineering of software projects.
+*   In-depth Codebase Repository Analysis.
+*   Automated Dependency Mapping.
+*   Core Use Case Identification.
+*   Dynamic Diagram Generation (Mermaid).
 
 ## Overall Architecture
 
-*
+*   The tool will be a command-line application built with Python, using the `click` library for the CLI and `pygit2` for Git interactions. It will be structured as an installable Python package.
